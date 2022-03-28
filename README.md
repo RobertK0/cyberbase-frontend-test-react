@@ -1,5 +1,5 @@
 # cyberbase-frontend-test-react
-An interview project remade using React
+An interview project remade using React.
 
 Assignment itself can be found in the _assignment.pdf_ file.
 

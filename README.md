@@ -18,7 +18,7 @@ Current functionality:
 
 TODO:
 
-* Fix up the UI, it's all over the place atm, but that is secondary
+* Fix up the UI, it's all over the place and I don't like it atm, but that is secondary
 * Make it responsive, also secondary
 * Comment and clean up the code a bit for clarity
 * Add editing functionality

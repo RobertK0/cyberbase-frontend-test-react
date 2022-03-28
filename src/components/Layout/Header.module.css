@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.recruit-btn {
+  height: 75px;
+  width: 250px;
+
+  border: none;
+  border-radius: 20px;
+
+  background-color: #fa5252;
+  color: #fff;
+
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 24px;
+  cursor: pointer;
+
+  transition: all 0.5s;
+}
+
+.recruit-btn:hover {
+  background-color: #fff;
+  color: #fa5252;
+  box-shadow: inset 0 0 0 2px #fa5252;
+}
+
+.btn-choice {
+  font-family: inherit;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 40px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn-choice:hover {
+  background-color: #fa5252;
+}

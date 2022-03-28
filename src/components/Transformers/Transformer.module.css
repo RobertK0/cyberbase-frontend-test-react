@@ -1,0 +1,71 @@
+.card-icon {
+  height: 100px;
+  width: 100px;
+  grid-row: span 3;
+}
+
+.card-icon.auto {
+  fill: #cc2229;
+}
+
+.card-icon.dece {
+  fill: #5a5d80;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 300;
+  align-self: flex-end;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.gear-container {
+  grid-column: span 2;
+}
+
+.gear-container li,
+.gear-container ul {
+  display: inline-block;
+}
+
+.gear-item:hover {
+  color: #444;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.btn-add-gear,
+.btn-delete,
+.btn-edit {
+  position: absolute;
+  right: 10px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  fill: transparent;
+  stroke: #fff;
+}
+
+.btn-edit {
+  right: 40px;
+  top: 10px;
+}
+
+.btn-delete {
+  top: 10px;
+}
+
+.btn-add-gear {
+  bottom: 10px;
+}

@@ -25,4 +25,4 @@ TODO:
 * Add gear adding functionality
 * Probably try doing it with Redux once I learn it
 
-Live site: TBD
+Live site: https://cyberbase.netlify.app/

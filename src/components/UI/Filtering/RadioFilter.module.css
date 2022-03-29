@@ -1,0 +1,44 @@
+.filter {
+  position: relative;
+  border: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.filter input {
+  position: absolute;
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.filter-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  fill: transparent;
+  transition: all 0.3s;
+}
+
+input:checked + .filter-icon.auto {
+  fill: #cc2229;
+  -webkit-filter: drop-shadow(0 3px 10px rgba(255, 0, 0, 0.7));
+  filter: drop-shadow(0 3px 10px rgba(141, 0, 0, 0.7));
+}
+
+input:checked + .filter-icon.dece {
+  fill: #5a5d80;
+  -webkit-filter: drop-shadow(0 3px 2px rgba(73, 84, 185, 0.7));
+  filter: drop-shadow(0 3px 2px rgba(73, 84, 185, 0.7));
+  stroke: #000;
+}
+
+.filter-show-all {
+  text-transform: uppercase;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 10px;
+}
